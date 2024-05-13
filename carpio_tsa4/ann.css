@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Sedan+SC&display=swap');
+
+body {
+  align-content: center;
+  background-image: url('bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Montserrat";
+  font-weight: medium;
+  font-style: normal;  color: white;
+
+}
+
+.clor{
+  
+  position: absolute;
+  top: 7px;
+  left: 300px;
+  width: 400px;
+}
+
+.name {
+  position: absolute;
+  display:block;
+  left: 5px;
+  right: 5px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Sedan SC", serif;
+  color: blueviolet;
+  font-weight: bold;
+  top: 70px;
+}
+
+.aka {
+ position: absolute;
+  display:block;
+  left: 5px;
+  right: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Sedan SC", serif;
+  color: white;
+  font-weight: bold;
+  top: 130px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.cd{
+  position: absolute;
+  display:block;
+  left: 5px;
+  right: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;  color: rgb(255, 0, 0);
+  top: 150px;
+}
+
+.banner{
+  position: absolute;
+  display:block;
+  left: 5px;
+  right: 5px;
+  top: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+.line1{
+  position: absolute;
+  display:block;
+  left: 5px;
+  right: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-style: normal;  color: gold;
+  top: 520px;
+}
+
+.board{
+  position: absolute;
+  display:block;
+  left: 25px;
+  right: 5px;
+  top: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
+
+.p1{
+  position: absolute;
+  display:block;
+  left: 5px;
+  right: 5px;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Montserrat";
+  font-weight: medium;
+  font-style: normal;  color: white;
+  top: 580px;
+  padding-left: 475px;
+  padding-right: 475px;
+}
+
+.line2{
+  position: absolute;
+  display:block;
+  left: 5px;
+  right: 5px;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-style: normal;  color: white;
+  top: 675px;
+  padding-left: 475px;
+  padding-right: 475px; 
+}
+
+.p2{
+  position: absolute;
+  display:block;
+  left: 5px;
+  right: 5px;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Montserrat";
+  font-weight: medium;
+  font-style: normal;  color: white;
+  top: 713px;
+  padding-left: 475px;
+  padding-right: 475px;
+}
+
+.hash{
+    position: absolute;
+    display:block;
+    left: 5px;
+    right: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-style: normal;  color: white;
+    top: 780px;
+
+}
+
+span{
+  color:gold;
+  font-style: italic;
+}
+
+.hoyo{
+  position: absolute;
+  display:block;
+  left: 25px;
+  right: 5px;
+  top: 880px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+
+}
