@@ -81,16 +81,11 @@ body {
 }
 
 .line1{
-  position: absolute;
-  display:block;
-  left: 5px;
-  right: 5px;
   text-align: center;
   font-size: 20px;
   font-family: "Montserrat";
   font-weight: bold;
   font-style: normal;  color: gold;
-  top: 520px;
 }
 
 .board{
@@ -120,33 +115,20 @@ body {
 }
 
 .line2{
-  position: absolute;
-  display:block;
-  left: 5px;
-  right: 5px;
   text-align: center;
   font-size: 12px;
   font-family: "Montserrat";
   font-weight: bold;
   font-style: normal;  color: white;
-  top: 675px;
-  padding-left: 475px;
-  padding-right: 475px; 
+ 
 }
 
 .p2{
-  position: absolute;
-  display:block;
-  left: 5px;
-  right: 5px;
   text-align: center;
   font-size: 12px;
   font-family: "Montserrat";
   font-weight: medium;
   font-style: normal;  color: white;
-  top: 713px;
-  padding-left: 475px;
-  padding-right: 475px;
 }
 
 .hash{
@@ -178,4 +160,13 @@ span{
   margin-right: auto;
   width: 150px;
 
+}
+
+.divpg{
+  position: relative;
+  top: 420px;
+  margin: auto;
+  align-content: center;
+  width: 530px;
+  
 }
