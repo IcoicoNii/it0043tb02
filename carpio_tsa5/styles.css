@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-image: url(https://assets.pokemon.com//assets/cms2/img/misc/virtual-backgrounds/sword-shield/pokemon-in-the-wild.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 3%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif; 
+}
+
+.green{
+    background-image: url(https://i0.wp.com/shirtigo.co/wp-content/uploads/2013/10/troubleinthetallgrass.jpg?fit=500%2C362&ssl=1);
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    padding: 10px;
+    filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
+    
+}
+
+.purple{
+background-image: url(https://i.pinimg.com/564x/ef/0d/92/ef0d92394962982ba198da36c2463be2.jpg);
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    padding: 10px;
+    filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
+    
+}
+
+.cardgreen{
+    background-image:linear-gradient(rgb(150, 255, 150), wheat);
+
+    width: 395px;
+    height: 600px;
+    border-color: black;
+    margin: 0px auto;
+    /* border-style: dashed;
+    border-width: 1px; */
+    border-radius: 15px;
+}
+
+.imgvenu{
+    display: block;
+    margin: 0px auto;
+    width: 250px;
+    position: relative;
+    top: 30px;
+}
+
+.imgclef{
+    display: block;
+    margin: 0px auto;
+    width: 250px;
+    position: relative;
+    top: 30px;
+}
+
+.imgmeta{
+    display: block;
+    margin: 0px auto;
+    width: 150px;
+    position: relative;
+    top: 30px;
+}
+
+.imgpsy{
+    display: block;
+    margin: 0px auto;
+    width: 350px;
+    position: relative;
+    top: 30px;
+}
+
+.imgpika{
+    display: block;
+    margin: 0px auto;
+    width: 260px;
+    position: relative;
+}
+
+.imggen{
+    display: block;
+    margin: 0px auto;
+    width: 220px;
+    position: relative;
+    top: 20px;
+}
+
+.bgimage{
+    margin: 0px auto;
+    width: 395px;
+    height: 260px;
+    border-radius: 15px;
+    background-image: url("https://img.freepik.com/free-vector/gradient-zoom-effect-blue-background_23-2149762303.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.deets{
+    width: 395px;
+    height: 340px;
+    /* border-style: solid;
+    border-width: 1px; */
+    border-radius: 15px;
+}
+
+.name{
+    margin-top: 12px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    font-family: montserrat;
+    color: rgb(0, 0, 0);
+    filter: drop-shadow(3px 3px 1px rgb(0, 0, 0));
+    background-color: rgb(255, 255, 226);
+    border-radius: 10px;
+}
+
+.type1{
+    background-color: rgb(95, 204, 0);
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family: montserrat;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 15px;
+    position: fixed;
+    top: 323px;
+    left: 25%;
+
+}
+
+.type2{
+    background-color: rgb(222, 91, 255);
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family: montserrat;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 15px;
+    position: fixed;
+    top: 323px;
+    right:25%;
+}
+
+.fairy{
+    background-color: rgb(222, 91, 255);
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family: montserrat;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 15px;
+    position: fixed;
+    top: 323px;
+    right:35%;
+    left: 35%;
+}
+
+.ghost{
+    background-color: #704170;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family: montserrat;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 15px;
+    position: fixed;
+    top: 323px;
+    left: 25%;
+}
+
+.water{
+    background-color: rgb(4, 150, 255);
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family: montserrat;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 15px;
+    position: fixed;
+    top: 323px;
+    right:35%;
+    left: 35%;
+}
+
+.grass{
+    background-color: #91A119;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family: montserrat;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 15px;
+    position: fixed;
+    top: 323px;
+    right:35%;
+    left: 35%;
+}
+
+.electric{
+    background-color: #b08700;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family: montserrat;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 15px;
+    position: fixed;
+    top: 323px;
+    right:35%;
+    left: 35%;
+}
+
+.desc{
+    font-family: montserrat;
+    text-align: justify;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-right: 22px;
+    position: fixed;
+    top: 400px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.add{
+    background: #23aeff;
+    color: white;
+    height: 30px;
+    width: 140px;
+    font-family: montserrat;
+    position: fixed;
+    top: 560px;
+    left: 15%;
+}
+
+.add:hover{
+    background: #006097;
+}
+
+.release{
+    background: #ff1515;
+    color: white;
+    height: 30px;
+    width: 140px;
+    font-family: montserrat;
+    position: fixed;
+    top: 560px;
+    right: 15%;
+}
+
+.release:hover{
+    background: #aa0000;
+}
+
+.pink{
+    background-image: url(https://i.pinimg.com/736x/8d/16/74/8d1674c35aa28a0aa5848fb821390790.jpg);
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    padding: 10px;
+    filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
+    
+}
+
+.cardpink{
+    background-image:linear-gradient(#ffbeff, wheat);
+
+    width: 395px;
+    height: 600px;
+    border-color: black;
+    margin: 0px auto;
+    /* border-style: dashed;
+    border-width: 1px; */
+    border-radius: 15px;
+}
+
+.cardgengar{
+    background-image:linear-gradient(#bc92da, wheat);
+
+    width: 395px;
+    height: 600px;
+    border-color: black;
+    margin: 0px auto;
+    /* border-style: dashed;
+    border-width: 1px; */
+    border-radius: 15px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.metapod{
+    background-image: url(https://i.pinimg.com/564x/98/c1/5a/98c15a449a1166ec23f5c9f1f63995dd.jpg);
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    padding: 10px;
+    filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
+    
+}
+
+.cardgrass{
+    background-image:linear-gradient(#e1ff00, wheat);
+    width: 395px;
+    height: 600px;
+    border-color: black;
+    margin: 0px auto;
+    /* border-style: dashed;
+    border-width: 1px; */
+    border-radius: 15px;
+}
+
+.psyduck{
+    background-image: url(https://i.pinimg.com/736x/ac/3f/90/ac3f9064080c9a54edbcd3146b5646eb.jpg);
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    padding: 10px;
+    filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
+    
+}
+
+.cardblue{
+    background-image:linear-gradient(#46e9ff, wheat);
+    width: 395px;
+    height: 600px;
+    border-color: black;
+    margin: 0px auto;
+    /* border-style: dashed;
+    border-width: 1px; */
+    border-radius: 15px;
+}
+
+.pikachu{
+background-image:url(https://i.pinimg.com/736x/fb/2a/a9/fb2aa9b5be4ab5aadc3869a616267c55.jpg) ;
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    padding: 10px;
+    filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
+    
+}
+
+.cardyellow{
+    background-image:linear-gradient(rgb(255, 203, 32), wheat);
+    width: 395px;
+    height: 600px;
+    border-color: black;
+    margin: 0px auto;
+    /* border-style: dashed;
+    border-width: 1px; */
+    border-radius: 15px;
+}
