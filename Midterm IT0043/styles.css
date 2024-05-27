@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Holtwood+One+SC&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/originals/72/d1/d6/72d1d68d151a2da121cf78c8e7600056.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Graduate", serif;
+    font-size: 30px;
+    margin: 10px;
+    transition-duration: 1s;
+}
+
+
+
+.flexcontainer{
+    margin: 0px auto;
+    width: 85%;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/33a82ede-2e36-4028-98e4-2452a4f756d9/dcgfe3y-ce877edd-aa03-4229-95f4-508e61d338b7.png/v1/fit/w_720,h_1280,q_70,strp/competition_ball__cellphone_size__by_bhrunno_dcgfe3y-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzMzYTgyZWRlLTJlMzYtNDAyOC05OGU0LTI0NTJhNGY3NTZkOVwvZGNnZmUzeS1jZTg3N2VkZC1hYTAzLTQyMjktOTVmNC01MDhlNjFkMzM4YjcucG5nIiwid2lkdGgiOiI8PTcyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.e6jf-kHWVJ8Fae8VnY5_tAmO-UI31UBq34NfLQpE_Eo");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    padding: 10px 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* box */
+
+.box{
+    display: flex;
+    transition: 1s ease-in-out;
+    flex-wrap: wrap;
+    /* border: solid; */
+    align-content: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    
+}
+
+/* color */
+
+#p1{
+    background-color: rgb(255, 208, 0);
+}
+
+#p2{
+    background-color: rgb(0, 155, 39);
+}
+
+#p3{
+    background-color: rgb(255, 102, 0);
+}
+
+#p4{
+    background-color: rgb(0, 217, 206);
+}
+
+#p5{
+    background-color: rgb(96, 53, 24);
+}
+
+#p6{
+    background-color: rgb(242, 224, 151);
+}
+
+#p7{
+    background-color: rgb(181, 170, 130);
+}
+
+#p8{
+    background-color: rgb(212, 166, 59);
+}
+
+#p9{
+    background-color: rgb(255, 188, 5);
+}
+
+#p10{
+    background-color: rgb(255, 238, 5);
+}
+
+#p11{
+    background-color: rgb(156, 0, 141);
+}
+
+#p12{
+    background-color: rgb(0, 106, 255);
+}
+
+/* img */
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+
+/* text */
+
+
+
+p{
+    display: none;
+    align-self: center;
+    text-align: center;
+    margin: 0px auto;
+    font-weight: bold;
+    color: white;
+    filter: drop-shadow(3px 3px 3px black);
+    flex-grow: 0.5;
+}
+
+
+.pokeball{
+    display: none;
+    width: 120px;
+    height: 120px;
+}
+
+/* media queries */
+
+@media (max-width: 1120px){
+    
+    .box{
+        flex-direction: row;
+        margin: 0px auto;
+        width: 95%;
+        height: 150px;
+        padding: 10px 10px;
+        justify-content: space-around;
+    }
+
+    .box:hover{
+        
+        background-position: center;
+        background-image: url("https://pbs.twimg.com/media/EaiLNR-XkAEsgIm?format=jpg&name=large");
+        transition-duration: 0.3s;
+        p{
+            color: black;
+            border-radius: 10px;
+            background-color: rgb(255, 242, 218);
+        }
+    }
+
+    img{
+        margin: auto;
+        width: 120px;
+      
+    }
+
+    p{
+        display: inline;
+    }
+
+    .pokeball{
+        display: inline;
+        margin-right: 20px ;
+    }
+
+    .flexcontainer{
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+
+
+}
+
+@media (max-width: 670px){
+    
+    .pokeball{
+        display: none;
+    }
+    
+    img{
+        margin-top: 10px;
+        margin-bottom: 9px;
+        width: 220px; 
+    }
+    
+    .box{
+        flex-direction: column;
+        width: 95%;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    p{
+        display: inline;
+        width: 50%;
+        height: 9px;
+    }
+
+    .box:hover{
+        background-position: center;
+        background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/59bc2eb0-69b1-42c5-a929-a029c3a783fc/dgxzek5-862ab8ec-8423-4c66-a60b-3f898d448a98.jpg/v1/fit/w_828,h_466,q_70,strp/genshin_screenshot_wallpaper___39_by_seigner_dgxzek5-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvNTliYzJlYjAtNjliMS00MmM1LWE5MjktYTAyOWMzYTc4M2ZjXC9kZ3h6ZWs1LTg2MmFiOGVjLTg0MjMtNGM2Ni1hNjBiLTNmODk4ZDQ0OGE5OC5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.evLyrLQqmVIH9RAK-g64z07YmSff32iEdcoE4WXA1Es");
+        transition-duration: 0.5s;
+
+        
+    }
+    
+}
+
