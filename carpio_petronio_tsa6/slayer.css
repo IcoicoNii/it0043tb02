@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(https://i0.wp.com/www.screenspy.com/wp-content/uploads/2022/03/demon-slayer-kimetsu-no-yaiba-s1-e22-3.png?ssl=1);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container{
+    background-image: url("https://rare-gallery.com/mocahbig/471814-anime-manga-illustration-fan-art-dark-background.png");
+    background-size: cover;
+    background-position: center;
+    transform: opa;
+    border: 1px solid black;
+    padding: 30px;
+    margin: 20px auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+}
+
+.item{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    justify-content: space-evenly;
+    
+}
+
+.icons{
+    margin: 0px auto;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 150px;
+    padding-top: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-image: url(https://external-preview.redd.it/GP7vClT7VnAvDor27TPas_p5oYEdgKTZsuqL8-33gU0.jpg?width=640&crop=smart&auto=webp&s=fdc87d3bd1a2a5fce72b309a49ac2b301fc148ff) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.name{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 10px;
+    filter: drop-shadow(1px 1px 3px black);
+}
+
+.breathing{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:white;
+    border-radius: 10px;
+    filter: drop-shadow(1px 1px 3px black);
+}
+
+.desc{
+    text-align: justify;
+    font-size: 1rem;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    filter: drop-shadow(1px 1px 3px black);
+    flex-grow: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+img{
+    margin: 0px auto;
+    width: 150px;
+    object-fit: cover;
+    filter: drop-shadow(1px 1px 3px black);
+}
+
+#giyu{
+    background-image: url("https://i.pinimg.com/originals/bb/b1/de/bbb1de233bb24ab54cb5578770bcea4d.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#kocho{
+    background-image: url("https://w0.peakpx.com/wallpaper/613/770/HD-wallpaper-shinobu-haori-clothing-design-demon-slayer-kimetsu-no-yaiba-shinobu-kochou.jpg");
+    background-size:  contain;
+    background-position: center;
+
+}
+
+#tanjiro{
+    background-image: url("https://i.pinimg.com/736x/95/55/04/9555040909af344765f10a84ff78d756.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#mitsuri{
+    background-image: url("https://www.1999.co.jp/itbig64/10645584a2.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#zenitsu{
+    background-image: url("https://pbs.twimg.com/media/EGZvh84U4AAHopw.jpg:large");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.one{
+    grid-column: 1/3;
+}
+
+.two{
+    grid-column: 3/4;
+}
+
+.five{
+    grid-column: 2/4;
+}
+
+.four{
+    grid-column: 4/5;
+    grid-row: 1/3;
+}
+
+span{
+    font-weight: bold;
+}
+
+@media (max-width: 800px){
+    .one{
+        grid-column: 1/5;
+    }
+    
+    .two{
+        grid-column: 1/5;
+    }
+    
+    .three{
+        grid-column: 1/5;
+    
+        
+    }
+    
+    .four{
+        grid-column: 1/5;
+        grid-row: 4/5;
+    }
+    
+    .five{
+        grid-column: 1/5;
+    }
+
+}
