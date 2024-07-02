@@ -7,6 +7,7 @@
 body{
     margin: 40px 100px;
     background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4862cebc-a29e-43c8-a9df-5b0889d30ed4/dgcokvb-398d9eca-3d1a-465f-ad8e-0d5eef769892.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ4NjJjZWJjLWEyOWUtNDNjOC1hOWRmLTViMDg4OWQzMGVkNFwvZGdjb2t2Yi0zOThkOWVjYS0zZDFhLTQ2NWYtYWQ4ZS0wZDVlZWY3Njk4OTIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.oFyTC5TKW5le9r04gkuC3ZgcX45QT5ZL8brcGqiVbhQ");
+    background-size: cover;
 }
 .main{
     /* border: solid; */
