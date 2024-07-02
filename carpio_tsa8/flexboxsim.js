@@ -83,7 +83,7 @@ function resetbox(){
     document.getElementById('two').style.flexGrow = 0;
     document.getElementById('three').style.flexGrow = 0;
     sim.style.flexWrap = "";
-    sim.style.resize= "none";
+    // sim.style.resize= "none";
     sim.style.width= "500px"; 
     sim.style.overflow= "none";
     document.getElementById('flexwrap').checked = false;
@@ -94,12 +94,12 @@ function fwrap() {
   
     if (checkBox.checked == true){
       sim.style.flexWrap= "wrap";
-      sim.style.resize= "horizontal";
-      sim.style.overflow="auto";
+    //   sim.style.resize= "horizontal";
+    //   sim.style.overflow="auto";
     }else{
         sim.style.flexWrap = "";
-        sim.style.resize= "none";
-        sim.style.width= "500px"; 
+        // sim.style.resize= "none";
+        // sim.style.width= "500px"; 
         sim.style.overflow= "none";
     }
 }
