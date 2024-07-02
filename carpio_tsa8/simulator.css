@@ -264,6 +264,8 @@ body{
     margin: 0px auto;
     /* justify-content: flex-start; */
     align-content: flex-start;
+    resize: horizontal;
+    overflow: hidden;
 }
 
 .box{
