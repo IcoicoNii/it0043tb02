@@ -13,7 +13,7 @@ body{
 }
 
 .green{
-    background-image: url(https://i0.wp.com/shirtigo.co/wp-content/uploads/2013/10/troubleinthetallgrass.jpg?fit=500%2C362&ssl=1);
+    background-image: url(https://i.pinimg.com/736x/5a/91/39/5a91397d03231daddf0094e04e2834fb.jpg);
     width: 400px;
     height: 600px;
     border-radius: 15px;
@@ -63,7 +63,7 @@ background-image: url(https://i.pinimg.com/564x/ef/0d/92/ef0d92394962982ba198da3
 .imgmeta{
     display: block;
     margin: 0px auto;
-    width: 150px;
+    width: 160px;
     position: relative;
     top: 30px;
 }
