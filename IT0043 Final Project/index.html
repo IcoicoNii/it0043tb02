@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IcoDesigns</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+    <link rel="stylesheet" href="aboutsectionstyle.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="servicespage.css">
+    <link rel="stylesheet" href="contactpage.css">
+    <link rel="stylesheet" href="testimonialspage.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="query.css">
+    <link rel="stylesheet" href="carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="ico designs.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="bar">
+            <a href="index.html" class="page-logo-title"><img src="ico designs.png" class="ico-icon" alt="">
+                <h1 class="page-title">IcoDesigns</h1>
+            </a>
+            <div id="nav-spacer"></div>
+            <ul class="list-items">
+                <li class="item home"> <a href="#">HOME</a></li>
+                <li class="item about"> <a href="#aboutdiv">ABOUT</a></li>
+                <li class="item potfolio"><a href="#portfolio-page">PORTFOLIO</a></li>
+                <li class="item services"><a href="#services-page">SERVICES</a></li>
+                <li class="item contact"><a href="#contact-page">CONTACT</a></li>
+            </ul>
+            <div class="toggle_btn" onclick="tog()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <li class="item home"> <a href="#">HOME</a></li>
+            <li class="item about"> <a href="#aboutdiv">ABOUT</a></li>
+            <li class="item potfolio"><a href="#portfolio-page">PORTFOLIO</a></li>
+            <li class="item services"><a href="#services-page">SERVICES</a></li>
+            <li class="item contact"><a href="#contact-page">CONTACT</a></li>
+        </div>
+
+
+
+    </nav>
+
+
+    <!-- <div class="container"> -->
+    <!-- LANDING PAGE -->
+    <div class="landing-page snap">
+        <div class="landing-inner">
+            <div class="cell one">
+                <p class="where">Where</p>
+                <p class="design">DESIGN</p>
+                <p class="meets">Meets</p>
+                <p class="passion">PASSION</p>
+            </div>
+
+            <div class="cell two">
+                <p class="intro">This is <span>Teodorico Carpio</span></p>
+            </div>
+
+            <div class="cell three">
+                <p class="it-pro">An Information Technology professional specializing in graphic and web design.</p>
+            </div>
+
+            <div class="cell four">
+                <a href="Curriculum Vitae.pdf" download><button class="downcv">DOWNLOAD <span>CV</span></button></a>
+            </div>
+
+            <div class="cell five">
+                <a href="">
+                    <img src="portrait.png" alt="" class="portrait">
+                </a>
+            </div>
+
+            <div class="cell six">
+                <div class="wrapper">
+                    <a href="https://www.facebook.com/rico.crp1204/" class="icon facebook" target="_blank">
+                        <span><i class="fab fa-facebook-f"></i></span>
+                    </a>
+                    <a href="https://x.com/icoico_nii" class="icon twitter" target="_blank">
+                        <span><i class="fab fa-twitter"></i></span>
+                    </a>
+                    <a href="https://www.instagram.com/icoico_nii/" class="icon instagram" target="_blank">
+                        <span><i class="fab fa-instagram"></i></span>
+                    </a>
+                    <a href="https://github.com/IcoicoNii/it0043tb02" class="icon github" target="_blank">
+                        <span><i class="fab fa-github"></i></span>
+                    </a>
+                    <a href="https://www.youtube.com/@hicobilala" class="icon youtube" target="_blank">
+                        <span><i class="fab fa-youtube"></i></span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT PAGE -->
+    <div class="snap" id="aboutdiv">
+        <div class="about-page" id="about-page">
+            <div class="profepic">
+                <img src="IMG_0516.JPG" alt="" class="propic">
+            </div>
+            <div class="aboutinfo">
+                <div class="flip-card">
+                    <div class="flip-card-inner" id="card1" onclick="flip('card1')">
+                        <div class="flip-card-front">
+
+                            <h1>
+                                GET TO KNOW ME
+                            </h1>
+                            <p>Meet your Ico!</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>
+                                Teodorico Carpio Jr.
+                            </h1>
+                            <p class="desc">
+                                You guys can call me Ico. I am a first year student of FEU Institute of Technology
+                                studying Information Technology majoring in Business Analytics.
+                                I specialize in graphic design, video editing and currently exploring more about Web
+                                Design.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner" id="card2" onclick="flip('card2')">
+                        <div class="flip-card-front">
+                            <h1>
+                                EDUCATIONAL BACKGROUND
+                            </h1>
+                            <p>
+                                My Journey in Pursuit of Knowledge
+                            </p>
+                        </div>
+                        <div class="flip-card-back educ">
+                            <div class="school s1">
+                                <img src="BSCSLOGO.png" alt="" class="icon">
+                                <h1 class="lvl">Primary</h1>
+                            </div>
+                            <div class="school s2">
+                                <img src="MDSFLOGO.png" alt="" class="icon">
+                                <h1 class="lvl">Secondary</h1>
+                            </div>
+                            <div class="school s3">
+                                <img src="FEUTECHLOGO.png" alt="" class="icon">
+                                <h1 class="lvl">Current | Tertiary</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner" id="card3" onclick="flip('card3')">
+                        <div class="flip-card-front">
+                            <h1>
+                                SKILLS
+                            </h1>
+                            <p>
+                                My Briefcase of Abilities and Capabilities
+                            </p>
+                        </div>
+                        <div class="flip-card-back abi">
+                            <div class="skl"><img src="codingicon.png" alt="" class="icn">
+                                <p>Programming</p>
+                            </div>
+                            <div class="skl"><img src="spacer.png" alt="" class="icn">
+                            </div>
+                            <div class="skl"><img src="gfxicon.png" alt="" class="icn">
+                                <p>Graphic Design</p>
+                            </div>
+                            <div class="skl"><img src="spacer.png" alt="" class="icn">
+                            </div>
+                            <div class="skl"><img src="vidicon.png" alt="" class="icn">
+                                <p>Video Editing</p>
+                            </div>
+                            <br>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PORTFOLIO PAGE -->
+    <div class="portfolio-page snap" id="portfolio-page">
+        <div class="portfolio-inner">
+            <div class="header">
+                <h1>PORTFOLIO</h1>
+                <p>Ico's briefcase of works</p>
+            </div>
+            <div class="works">
+
+                <div class="tsa hide" id="tsa2">
+                    <h1 class="rot">Technical Summative Assessment</h1>
+                    <h1 class="num">2</h1>
+                    <div class="expanded">
+                        <h1 class="headexpa">Technical Summative Assessment 2</h1>
+                        <div class="panel"><a href="https://icoiconii.github.io/it0043tb02/carpio_tsa2.html"
+                                target="_blank"><img src="TSA2.png" alt=""></a></div>
+                        <p class="description"> An introduction to the HTML class. An assessment that challenged my
+                            understanding about the HTML structure.</p>
+                    </div>
+
+                    <div class="headinfo hidden">
+                        <a href="https://icoiconii.github.io/it0043tb02/carpio_tsa2.html" target="_blank"
+                            class="panel"><img src="TSA2.png" alt="" class="githubimg"></a>
+                        <div class="tsainfo-media">
+                            <h1 class="headexpa">Technical Summative Assessment 2</h1>
+                            <p class="description"> An introduction to the HTML class. An assessment that challenged my
+                                understanding about the HTML structure.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tsa hide" id="tsa3">
+                    <h1 class="rot">Technical Summative Assessment</h1>
+                    <h1 class="num">3</h1>
+                    <div class="expanded">
+                        <h1 class="headexpa">Technical Summative Assessment 3</h1>
+                        <div class="panel"><a href="https://icoiconii.github.io/it0043tb02/carpio_tsa3.html"
+                                target="_blank"><img src="TSA3.png" alt=""></a></div>
+                        <p class="description"> Introduction to tables, input, and form elements of the HTML. A
+                            sample pokedex as an exercise for the assessment.</p>
+                    </div>
+
+                    <div class="headinfo hidden">
+                        <a href="https://icoiconii.github.io/it0043tb02/carpio_tsa3.html" target="_blank"
+                            class="panel"><img src="TSA3.png" alt="" class="githubimg"></a>
+                        <div class="tsainfo-media">
+                            <h1 class="headexpa">Technical Summative Assessment 3</h1>
+                            <p class="description"> Introduction to tables, input, and form elements of the HTML. A
+                                sample pokedex as an exercise for the assessment.</p>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="tsa hide" id="tsa4">
+                    <h1 class="rot">Technical Summative Assessment</h1>
+                    <h1 class="num">4</h1>
+                    <div class="expanded">
+                        <h1 class="headexpa">Technical Summative Assessment 4</h1>
+                        <div class="panel"><a href="https://icoiconii.github.io/it0043tb02/carpio_tsa4/carpio_tsa4.html"
+                                target="_blank"><img src="TSA4.png" alt=""></a></div>
+                        <p class="description"> The introduction to the Cascading Style Sheet | CSS. A Genshin
+                            Impact character introduction as an output.</p>
+                    </div>
+
+                    <div class="headinfo hidden">
+                        <a href="https://icoiconii.github.io/it0043tb02/carpio_tsa4/carpio_tsa4.html" target="_blank"
+                            class="panel"><img src="TSA4.png" alt="" class="githubimg"></a>
+                        <div class="tsainfo-media">
+                            <h1 class="headexpa">Technical Summative Assessment 4</h1>
+                            <p class="description"> The introduction to the Cascading Style Sheet | CSS. A Genshin
+                                Impact character introduction as an output.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tsa hide" id="tsa5">
+                    <h1 class="rot">Technical Summative Assessment</h1>
+                    <h1 class="num">5</h1>
+                    <div class="expanded">
+                        <h1 class="headexpa">Technical Summative Assessment 5</h1>
+                        <div class="panel"><a href="https://icoiconii.github.io/it0043tb02/carpio_tsa5/carpio_tsa5.html"
+                                target="_blank"><img src="TSA5.png" alt=""></a></div>
+                        <p class="description"> An introduction to the flexbox properties of the CSS. An exercise
+                            that produced pokemon cards as an output.</p>
+                    </div>
+
+                    <div class="headinfo hidden">
+                        <a href="https://icoiconii.github.io/it0043tb02/carpio_tsa5/carpio_tsa5.html" target="_blank"
+                            class="panel"><img src="TSA5.png" alt="" class="githubimg"></a>
+                        <div class="tsainfo-media">
+                            <h1 class="headexpa">Technical Summative Assessment 5</h1>
+                            <p class="description"> An introduction to the flexbox properties of the CSS. An exercise
+                                that produced pokemon cards as an output.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tsa hide" id="mpe">
+                    <h1 class="rot">Midterm Practical Examniation</h1>
+                    <h1 class="num">MPE</h1>
+                    <div class="expanded">
+                        <h1 class="headexpa">Midterm Practical Examination</h1>
+                        <div class="panel"><a
+                                href="https://icoiconii.github.io/it0043tb02/Midterm%20IT0043/carpio_mpe.html"
+                                target="_blank"><img src="MPE.png" alt=""></a></div>
+                        <p class="description"> A practical examination challenging our design and creativity skills
+                            while also applying the concept of web page responsiveness.</p>
+                    </div>
+                    <div class="headinfo hidden">
+                        <a href="https://icoiconii.github.io/it0043tb02/Midterm%20IT0043/carpio_mpe.html"
+                            target="_blank" class="panel"><img src="MPE.png" alt="" class="githubimg"></a>
+                        <div class="tsainfo-media">
+                            <h1 class="headexpa">Midterm Practical Examination</h1>
+                            <p class="description"> A practical examination challenging our design and creativity skills
+                                while also applying the concept of web page responsiveness.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tsa hide" id="tsa6">
+                    <h1 class="rot">Technical Summative Assessment</h1>
+                    <h1 class="num">6</h1>
+                    <div class="expanded">
+                        <h1 class="headexpa">Technical Summative Assessment 6</h1>
+                        <div class="panel"><a
+                                href="https://icoiconii.github.io/it0043tb02/carpio_petronio_tsa6/kimetsu.html"
+                                target="_blank"><img src="TSA6.png" alt=""></a></div>
+                        <p class="description"> An introduction to the grid system of HTML and CSS. An output of
+                            character backgrounds from Demon Slayer as an assessment.</p>
+                    </div>
+
+                    <div class="headinfo hidden">
+                        <a href="https://icoiconii.github.io/it0043tb02/carpio_tsa5/carpio_tsa5.html" target="_blank"
+                            class="panel"><img src="TSA6.png" alt="" class="githubimg"></a>
+                        <div class="tsainfo-media">
+                            <h1 class="headexpa">Technical Summative Assessment 6</h1>
+                            <p class="description"> An introduction to the grid system of HTML and CSS. An output of
+                                character backgrounds from Demon Slayer as an assessment.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tsa hide" id="tsa7">
+                    <h1 class="rot">Technical Summative Assessment</h1>
+                    <h1 class="num">7</h1>
+                    <div class="expanded">
+                        <h1 class="headexpa">Technical Summative Assessment 7</h1>
+                        <div class="panel"><a
+                                href="https://icoiconii.github.io/it0043tb02/carpio_panganiban_tsa7/carpio_panganiban_tsa7.html"
+                                target="_blank"><img src="TSA7.png" alt=""></a></div>
+                        <p class="description"> An exercise to practice grid layout in HTML. An output of Demon
+                            Slayer Fandom Webpage as an assessment.</p>
+                    </div>
+
+                    <div class="headinfo hidden">
+                        <a href="https://icoiconii.github.io/it0043tb02/carpio_tsa5/carpio_tsa5.html" target="_blank"
+                            class="panel"><img src="TSA7.png" alt="" class="githubimg"></a>
+                        <div class="tsainfo-media">
+                            <h1 class="headexpa">Technical Summative Assessment 7</h1>
+                            <p class="description">An exercise to practice grid layout in HTML. An output of Demon
+                                Slayer Fandom Webpage as an assessment.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tsa hide" id="tsa8">
+                    <h1 class="rot">Technical Summative Assessment</h1>
+                    <h1 class="num">8</h1>
+                    <div class="expanded">
+                        <h1 class="headexpa">Technical Summative Assessment 8</h1>
+                        <div class="panel"><a href="https://icoiconii.github.io/it0043tb02/carpio_tsa8/carpio_tsa8.html"
+                                target="_blank"><img src="TSA8.png" alt=""></a></div>
+                        <p class="description">An exercise to test the understanding and application of JavaScript.
+                            An output of a Flexbox Simulator as an assessment.</p>
+                    </div>
+
+                    <div class="headinfo hidden">
+                        <a href="https://icoiconii.github.io/it0043tb02/carpio_tsa5/carpio_tsa5.html" target="_blank"
+                            class="panel"><img src="TSA8.png" alt="" class="githubimg"></a>
+                        <div class="tsainfo-media">
+                            <h1 class="headexpa">Technical Summative Assessment 8</h1>
+                            <p class="description">An exercise to test the understanding and application of JavaScript.
+                                An output of a Flexbox Simulator as an assessment.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+                            <img src="powered by.png" alt="" class="powered">
+
+        </div>
+    </div>
+
+    <!-- SERVICES PAGE -->
+    <div class="services-page snap" id="services-page">
+        <div class="services-inner" id="services-inner">
+
+            <div class="cell sertitle">
+                <h1 class="servicesoffered">SERVICES OFFERED</h1>
+                <div class="servicespacer">
+
+                </div>
+                <h1 class="creationsdr">CREATIONS DONE RIGHT</h1>
+            </div>
+            <div class="cell service ui">
+                <img src="1.png" alt="">
+                <div class="info">
+                    <h3>UI/UX Design</h3>
+                    <a href="#services-page"><button class="lm">Learn More</button></a>
+
+                </div>
+            </div>
+
+            <div class="cell service webdes">
+                <img src="2.png" alt="">
+                <div class="info">
+                    <h3>Web Design</h3>
+                    <a href="#services-page"><button class="lm">Learn More</button></a>
+
+                </div>
+            </div>
+
+            <div class="cell service vided">
+                <img src="3.png" alt="">
+                <div class="info">
+                    <h3>Video Editing</h3>
+                    <a href="#services-page"><button class="lm">Learn More</button></a>
+
+                </div>
+            </div>
+
+            <div class="cell service gfx">
+                <img src="4.png" alt="">
+                <div class="info">
+                    <h3>Graphic Design</h3>
+                    <a href="#services-page"><button class="lm">Learn More</button></a>
+
+                </div>
+            </div>
+
+            <div class="cell serviceicon"><img src="servicesicon.png" alt=""></div>
+        </div>
+    </div>
+
+    <div class="contact-page" id="contact-page">
+        <div class="contact-inner">
+
+            <form action="" class="contactme">
+                <h1 class="cwm">Connect with Me!</h1>
+                <input type="text" id="name" placeholder="Name">
+                <input type="text" id="emailadd" placeholder="Email Address">
+                <input type="number" id="contactno" placeholder="Phone Number">
+                <input type="text" id="emailsub" placeholder="Email Subject">
+                <textarea class="message" type="text" placeholder="Message"></textarea>
+                <input type="submit" class="submit">
+            </form>
+
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade" id="slide1">
+                </div>
+
+                <div class="mySlides fade" id="slide2">
+                </div>
+
+                <div class="mySlides fade" id="slide3">
+                </div>
+
+                <!-- Next and previous buttons -->
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <!-- The dots/circles -->
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="wrapper">
+            <a href="https://www.facebook.com/rico.crp1204/" class="icon facebook" target="_blank">
+                <span><i class="fab fa-facebook-f"></i></span>
+            </a>
+            <a href="https://x.com/icoico_nii" class="icon twitter" target="_blank">
+                <span><i class="fab fa-twitter"></i></span>
+            </a>
+            <a href="https://www.instagram.com/icoico_nii/" class="icon instagram" target="_blank">
+                <span><i class="fab fa-instagram"></i></span>
+            </a>
+            <a href="https://github.com/IcoicoNii/it0043tb02" class="icon github" target="_blank">
+                <span><i class="fab fa-github"></i></span>
+            </a>
+            <a href="https://www.youtube.com/@hicobilala" class="icon youtube" target="_blank">
+                <span><i class="fab fa-youtube"></i></span>
+            </a>
+        </div>
+        <h4>© Teodorico Carpio | All Rights Reserved</h4>
+
+
+    </footer>
+
+
+
+
+
+
+
+    <script src=script.js></script>
+
+</body>
+
+</html>

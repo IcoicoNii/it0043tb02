@@ -1,0 +1,208 @@
+#aboutdiv {
+    margin: 0px auto;
+    background-image: url(aboutbg.png);
+    background-size: cover;
+    background-position: center;
+    /* border: solid; */
+    /* position: absolute; */
+    width: 100%;
+    top: 770px;
+    height: 620px;
+    padding-top: 130px;
+    padding-bottom: 50px;
+
+}
+
+.about-page {
+    margin: 0px auto;
+    /* border: solid; */
+    width: 93%;
+    height: 97%;
+    display: grid;
+    grid-template-columns: 50% 45%;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid; */
+    flex-direction: column;
+    gap: 20px;
+}
+
+.flip-card {
+    /* border: solid; */
+    width: 100%;
+    height: 150px;
+    filter: drop-shadow(2px 2px 2px black);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-image: url(aboutmebg.png);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    line-height: 27px;
+}
+
+.flip-card-back {
+    background-color: #ccd5ae;
+    color: rgb(36, 77, 42);
+    border-radius: 20px;
+    transform: rotateX(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+.school{
+    /* border: solid; */
+    display: flex;
+    width: 120px;
+    flex-grow: 1;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.s1{
+    background-image: url(BSCSbg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.s2{
+    background-image: url(MDSFbg.webp);
+    background-position: center;
+    background-size: cover;
+}
+.s3{
+    background-image: url(FEUTechbg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.icon{
+    margin-top: 10px;
+    width: 9dvh;
+    height: 9dvh;
+    z-index: 1;
+    transition: 0.3s ease-in-out;
+    filter: drop-shadow(1px 1px 2px white);
+}
+
+.icon:hover{
+    transform: scale(130%);
+    
+}
+
+.educ{
+    flex-direction: row;
+    line-height: 15px;
+}
+
+.lvl{
+    font-size: 1rem;
+    color: white;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.profepic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.propic {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    transform: scale(120%);
+}
+
+.propic:hover{
+    filter: drop-shadow(0px 0px 20px #d4a373);
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.3rem;
+    margin-top: 10px;
+    line-height: 34px;
+}
+
+.desc{
+    line-height: 20px;
+    margin: 0px 20px;
+    font-size: 0.9rem;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.abi{
+    flex-direction: row;
+}
+
+.skl{
+    line-height: 14px;
+    /* border: solid; */
+    height: 140px;
+    width: 100px;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    cursor: default;
+}
+
+.icn{
+    width: 100%;
+}
+
+.icn:hover{
+    transform: scale(110%);
+}
+
