@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    transition-duration: 2s;
+}
+
+body{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right,#B7140F, #F08913);
+}
+
+.container {
+    /* border: solid; */
+    width: 80%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.choco {
+    position: absolute;
+    filter: drop-shadow(2px 2px 4px);
+    transform: rotate(10deg);
+    height: 30%;
+    cursor: pointer;
+    z-index: 2;
+    transition-duration: 0.5s;
+
+}
+
+.choco:hover{
+    transform: rotate(20deg);
+    scale: 120%;
+}
+
+.notepad {
+    opacity: 0%;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 10px 10px 40px rgba(black, .15);
+    border-radius: 15px;
+    overflow-x: auto;
+    background-color: #F1EDE9;
+  }
+
+.notepad2{
+    display: none;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 10px 10px 40px rgba(black, .15);
+    border-radius: 15px;
+    overflow-x: auto;
+    background-color: #F1EDE9;
+}
+  
+  .top {
+    width: 100%;
+    height: 50px;
+    background: #333;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .top h1 {
+    color: white;
+    font-family: "Jersey 25", serif;
+    font-weight: 400;
+
+}
+  
+  .paper {
+    width: auto;
+    height: 100%;
+    min-height: 60vh;
+    padding: 33px 20px;
+    background: repeating-linear-gradient(#F1EDE9, #F1EDE9 31px, #94ACD4 31px, #94ACD4 32px);
+    font-family: 'Shadows Into Light', cursive;
+    line-height: 32px;
+    outline: 0;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  button{
+    height: 3vh;
+    width: 3vh;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  @keyframes shake {
+    0% {rotate: -10deg;}
+    25% {rotate: 10deg;}
+    50% {rotate: -10deg;}
+    75% {rotate: 10deg;}
+    100% {rotate: -10deg;}
+  }
+
+.ginger{
+    margin: 0px auto;
+    height: 10vh;
+    animation-name: shake;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+}
+
+span{
+    color: #d4af37;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
